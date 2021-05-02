@@ -7,7 +7,7 @@ static
 media
 secret.py
 migrations
-assets
+myapp/migrations
 
 
 # Byte-compiled / optimized / DLL files
