@@ -9,7 +9,7 @@ secret.py
 migrations
 myapp/migrations
 
-
+db.sqlite3-journal
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
