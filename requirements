@@ -18,6 +18,8 @@ cryptography @ file:///C:/ci/cryptography_1616769432139/work
 Cython @ file:///C:/ci/cython_1618435342622/work
 dill==0.3.2
 Django==3.0.5
+django-filter==2.4.0
+djangorestframework==3.12.4
 Flask==1.0.4
 future==0.18.2
 gast==0.2.2
