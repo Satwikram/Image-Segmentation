@@ -12,3 +12,6 @@ class Segmentation(models.Model):
 
     image = models.ImageField(upload_to = directory_path)
     prediction = models.ImageField(upload_to = prediction_path)
+
+    def __str__(self):
+        return self.image
