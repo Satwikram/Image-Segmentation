@@ -8,6 +8,7 @@ media
 secret.py
 migrations
 myapp/migrations
+uploads
 
 db.sqlite3-journal
 # Byte-compiled / optimized / DLL files
