@@ -7,4 +7,4 @@ class SegmentationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Segmentation
 
-        fields = '__all__'
+        fields = ('id', 'image', 'prediction')
