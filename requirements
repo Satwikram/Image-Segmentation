@@ -23,6 +23,7 @@ google-auth @ file:///tmp/build/80754af9/google-auth_1619477128713/work
 google-auth-oauthlib @ file:///tmp/build/80754af9/google-auth-oauthlib_1617120569401/work
 google-pasta==0.2.0
 grpcio @ file:///C:/ci/grpcio_1614884412260/work
+gunicorn==20.1.0
 h5py==2.10.0
 idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
 importlib-metadata @ file:///C:/ci/importlib-metadata_1617877484576/work
