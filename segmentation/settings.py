@@ -25,7 +25,7 @@ SECRET_KEY = '@vqmu@*u4pp@2^ec$@wy3+5a^b_77fop^v2kk^f^-1hj&vcnb_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -78,8 +78,11 @@ WSGI_APPLICATION = 'segmentation.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'HOST': 'db',
+        'PORT': 5432,
+        'USER': 'postgres',
     }
 }
 
